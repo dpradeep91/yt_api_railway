@@ -68,7 +68,7 @@ def answers(option):
         ss.flag = False
         output = None
     
-    st.table(output)
+    st.dataframe(output)
     
 
 if ss.flag:
